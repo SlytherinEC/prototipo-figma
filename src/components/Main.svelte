@@ -18,7 +18,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      background-color: #F5F5F5; /* Color claro para el área de contenido */
+      background-color: #FFCCB3; /* Color claro para el área de contenido */
     }
   </style>
   

@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "titulo": "Official Handbook of the Marvel Universe (2004) #12 (SPIDER-MAN)",
+      "autor": "Heather Buchanan",
+      "editorial": "Marvel Comics",
+      "genero": "Súper héroes",
+      "precio": 3.99,
+      "stock": 15,
+      "imagen": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/4bc64020a4ccc.jpg"
+    },
+    {
+      "id": 2,
+      "titulo": "X-Men: Alpha #1",
+      "autor": "Scott Lobdell",
+      "editorial": "Marvel Comics",
+      "genero": "Súper héroes",
+      "precio": 5.99,
+      "stock": 10,
+      "imagen": "http://i.annihil.us/u/prod/marvel/i/mg/3/10/4bc660f8a7b99.jpg"
+    }
+  ]
+  
