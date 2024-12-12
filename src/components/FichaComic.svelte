@@ -61,6 +61,14 @@
     font-weight: bold;
     color: #e63946;
   }
+
+  @media (max-width: 768px) {
+    .ficha-comic {
+      flex-direction: column; /* Cambia el layout a columna para que se apile verticalmente */
+      width: 55%;
+      height: 100%;
+    }
+}
 </style>
 
 <div class="ficha-comic">

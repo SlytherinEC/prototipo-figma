@@ -108,5 +108,33 @@
     .icono-carrito:hover {
       transform: scale(1.2);
     }
+
+    /* Media Query para dispositivos móviles */
+  @media (max-width: 768px) {
+    
+    .content {
+      display: block; /* Cambia el display a bloque para que los elementos se apilen */
+    }
+
+    .contenedor-opciones {
+      width: 100%; /* Asegura que el contenedor de opciones ocupe todo el ancho */
+      height: auto;
+      padding: 10px 15px;
+      flex-direction: column; /* Alinea los elementos verticalmente */
+      justify-content: center;
+      align-items: center;
+    }
+
+    input {
+      width: 100%; /* El input ocupa todo el ancho */
+      height: 45px; /* Ajusta la altura para hacerlo más proporcional */
+      font-size: 16px;
+      padding: 0 15px;
+    }
+
+    .icono-carrito {
+      font-size: 1.8rem; /* Ajusta el tamaño del icono en móvil */
+    }
+  }
   </style>
   
