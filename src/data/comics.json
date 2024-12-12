@@ -11,13 +11,53 @@
     },
     {
       "id": 2,
-      "titulo": "X-Men: Alpha #1",
-      "autor": "Scott Lobdell",
+      "titulo": "Ant-Man (2003) #4",
+      "autor": "Daniel Way",
       "editorial": "Marvel Comics",
       "genero": "Súper héroes",
-      "precio": 5.99,
-      "stock": 10,
-      "imagen": "http://i.annihil.us/u/prod/marvel/i/mg/3/10/4bc660f8a7b99.jpg"
-    }
-  ]
+      "precio": 2.99,
+      "stock": 5,
+      "imagen": "http://i.annihil.us/u/prod/marvel/i/mg/4/20/4bc697c680890.jpg"
+    },
+    {
+      "id": 3,
+      "titulo": "Marvel Previews (2017)",
+      "autor": "Jim Nausedas",
+      "editorial": "Marvel Comics",
+      "genero": "Súper héroes",
+      "precio": 2.99,
+      "stock": 5,
+      "imagen": "http://i.annihil.us/u/prod/marvel/i/mg/c/80/5e3d7536c8ada.jpg"
+    },
+    {
+      "id": 4,
+      "titulo": "X-Men: Phoenix - Warsong (2006)",
+      "autor": "Top Cow Tyler Kirkham",
+      "editorial": "Marvel Comics",
+      "genero": "Súper héroes",
+      "precio": 3.99,
+      "stock": 15,
+      "imagen": "http://i.annihil.us/u/prod/marvel/i/mg/6/50/4c3645d0d29e3.jpg"
+    },
+    {
+      "id": 5,
+      "titulo": "Ant-Man (2003) #2",
+      "autor": "Clayton Crain",
+      "editorial": "Marvel Comics",
+      "genero": "Súper héroes",
+      "precio": 3.99,
+      "stock": 15,
+      "imagen": "http://i.annihil.us/u/prod/marvel/i/mg/f/20/4bc69f33cafc0.jpg"
+    },
+    {
+      "id": 6,
+      "titulo": "Hedge Knight II: Sworn Sword (2007) #1 (Yu Variant)",
+      "autor": "Ben Avery",
+      "editorial": "Marvel Comics",
+      "genero": "Súper héroes",
+      "precio": 3.99,
+      "stock": 15,
+      "imagen": "http://i.annihil.us/u/prod/marvel/i/mg/9/50/4bc49463dad62.jpg"
+    }  
   
+  ]
