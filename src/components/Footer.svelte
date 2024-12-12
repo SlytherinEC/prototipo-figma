@@ -6,8 +6,7 @@
     footer {
       height: 7%;
       width: 100%;
-      background-color: #343a40; /* Cambia a tu color preferido */
-      color: #ffffff;
+      background-color: #FF8A66; 
       display: flex;
       align-items: center;
       justify-content: center;

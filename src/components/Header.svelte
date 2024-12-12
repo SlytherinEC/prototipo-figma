@@ -6,7 +6,7 @@
     header {
       height: 16%;
       width: 100%;
-      background-color: #FF8A66; /* Cambia a tu color preferido */
+      background-color: #FF8A66; 
       display: flex;
       align-items: center;
       justify-content: center;
