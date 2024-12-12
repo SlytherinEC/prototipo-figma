@@ -1,6 +1,6 @@
 <script>
     // Lista de opciones de navegación
-    export let options = ["Inicio", "Perfil", "Configuración", "Salir"];
+    export let options = [];
   </script>
   
   <style>
