@@ -31,8 +31,27 @@
         justify-content: center;
         background-color: #ffccb3; /* Color claro para el área de contenido */
         flex-wrap: wrap;
-        overflow-y: scroll; /* Permite el desplazamiento vertical */
+        overflow-y: auto; /* Permite el desplazamiento vertical */
         padding: 20px; /* Espaciado interno */
         box-sizing: border-box;
+        height: 100%; /* Asegura que el contenedor ocupe todo el alto disponible */
     }
-</style>
+
+    /* Estilos para la barra de desplazamiento */
+    .content::-webkit-scrollbar {
+        width: 8px; /* Ancho de la barra de desplazamiento */
+    }
+
+    .content::-webkit-scrollbar-track {
+        background: #ffccb3; /* Color de fondo de la pista */
+        border-radius: 10px; /* Bordes redondeados en la pista */
+    }
+
+    .content::-webkit-scrollbar-thumb {
+        background: #e63946; /* Color de la barra de desplazamiento */
+        border-radius: 10px; /* Bordes redondeados */
+    }
+
+    .content::-webkit-scrollbar-thumb:hover {
+        background: #d62828; /* Color de la barra al hacer hover */
+    }</style>

@@ -12,13 +12,13 @@
     background-color: #FF8A66;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     width: 18%; /* Ancho fijo: 18% del contenedor */
-    height: 35%; /* Alto fijo: 35% del contenedor */
+    min-height: 35%; /* Alto fijo: 35% del contenedor */
     box-sizing: border-box;
     margin: 2%;
   }
 
   .portada {
-    height: 50%; /* Ocupa el 50% del contenedor */
+    max-height: 50%; /* Ocupa el 50% del contenedor */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,7 +32,7 @@
   }
 
   .info {
-    height: 50%; /* Ocupa el 50% del contenedor */
+    min-height: 50%; /* Ocupa el 50% del contenedor */
     padding: 10px;
     font-size: 14px;
     display: flex;
