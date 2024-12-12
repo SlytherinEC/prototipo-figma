@@ -8,7 +8,8 @@
       width: 16%; /* 16% del ancho de Main */
       height: 100%; /* Todo el alto de Main */
       background-color: #FFA48C; /* Fondo */
-      color: #4A1C12; /* Texto oscuro que resalte */
+      color: beige; /* Texto oscuro que resalte */
+      text-shadow: 2px 2px 4px #4A1C12; /* Sombreado del texto */
       display: flex;
       flex-direction: column;
       align-items: flex-start; /* Alinear elementos al inicio horizontal */

@@ -1,17 +1,26 @@
 <script>
   import { FontAwesomeIcon } from "@fortawesome/svelte-fontawesome";
-  import { faFacebook, faTwitter, faInstagram, faGithub } from "@fortawesome/free-brands-svg-icons";
+  import {
+    faFacebook,
+    faTwitter,
+    faInstagram,
+    faGithub,
+  } from "@fortawesome/free-brands-svg-icons";
   import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
   const currentYear = new Date().getFullYear(); // Obtiene el año actual
 </script>
 
 <footer>
-    <div class="project-info">
+  <div class="project-info">
     <p>Tienda de cómics &copy; {currentYear}. Todos los derechos reservados.</p>
   </div>
-<div class="social-icons">
-    <a href="https://github.com/SlytherinEC/prototipo-figma.git" target="_blank" class="icon">
+  <div class="social-icons">
+    <a
+      href="https://github.com/SlytherinEC/prototipo-figma.git"
+      target="_blank"
+      class="icon"
+    >
       <FontAwesomeIcon icon={faGithub} />
     </a>
     <a href="mailto:yborges2005@gmail.com" class="icon">
@@ -24,12 +33,13 @@
   footer {
     height: auto;
     width: 100vw;
-    background-color: #FF8A66;
+    background-color: #ff8a66;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     padding: 10px;
-    color: #fff;
+    color: beige; /* Texto oscuro que resalte */
+    text-shadow: 2px 2px 4px #4a1c12; /* Sombreado del texto */
     text-align: center;
   }
 

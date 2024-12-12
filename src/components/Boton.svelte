@@ -9,7 +9,8 @@
 <style>
   .boton {
     background-color: #ff5733; /* Color de fondo */
-    color: #ffd700; /* Color del texto */
+    color: beige; /* Texto oscuro que resalte */
+    text-shadow: 2px 2px 4px #4A1C12; /* Sombreado del texto */
     font-size: 16px;
     font-weight: bold;
     text-align: center;
@@ -17,7 +18,6 @@
     border: 10px solid transparent; /* Borde transparente para mantener el estilo de bordes redondeados */
     border-radius: 8px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Sombra abajo y a la derecha */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombreado del texto */
     cursor: pointer;
     transition:
       background-color 0.3s ease,
