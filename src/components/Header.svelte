@@ -4,8 +4,8 @@
   
   <style>
     header {
-      height: 16%;
-      width: 100%;
+      height: 16vh;
+      width: 100vw;
       background-color: #FF8A66; 
       display: flex;
       align-items: center;

@@ -4,8 +4,8 @@
   
   <style>
     footer {
-      height: 7%;
-      width: 100%;
+      height: 7vh;
+      width: 100vw;
       background-color: #FF8A66; 
       display: flex;
       align-items: center;

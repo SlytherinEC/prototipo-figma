@@ -18,9 +18,9 @@
 <style>
     main {
         flex-grow: 1; /* Ocupa el espacio restante en App */
-        width: 100%;
+        width: 100vw;
+        height: 77vh;
         display: flex; /* Layout en fila */
-        background-color: #ffffff; /* Fondo del contenido principal */
     }
 
     .content {
@@ -31,5 +31,8 @@
         justify-content: center;
         background-color: #ffccb3; /* Color claro para el área de contenido */
         flex-wrap: wrap;
+        overflow-y: scroll; /* Permite el desplazamiento vertical */
+        padding: 20px; /* Espaciado interno */
+        box-sizing: border-box;
     }
 </style>
