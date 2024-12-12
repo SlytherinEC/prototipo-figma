@@ -2,13 +2,23 @@
     import NavBar from "./NavBar.svelte";
     import comics from "../data/comics.json"; // Importamos los datos del archivo JSON
     // Opciones de la barra de navegación
-    let navOptions = ["Inicio", "Perfil", "Configuración", "Salir"];
+    let navOptions = [
+        "Inicio",
+        "Comics",
+        "Manga",
+        "Novedades",
+        "Especiales",
+        "Salir",
+    ];
     import FichaComic from "./FichaComic.svelte";
 </script>
 
 <main>
     <NavBar options={navOptions} />
     <div class="content">
+        <div class="contenedor-opciones">
+            <input type="text" name="buscar" placeholder="Buscar cómics..." />
+        </div>
         {#each comics as comic}
             <FichaComic {comic} />
         {/each}
@@ -54,4 +64,27 @@
 
     .content::-webkit-scrollbar-thumb:hover {
         background: #d62828; /* Color de la barra al hacer hover */
-    }</style>
+    }
+
+    .contenedor-opciones {
+        width: 90%;
+        height: 15%;
+        background-color: #FFA48C;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        padding: 0 25px;
+    }
+
+    input {
+        width: 75%;
+        height: 50%;
+        border: none;
+        background-color: #fff;
+        color: #4A1C12;
+        font-size: 18px;
+        padding: 0 20px;
+        box-sizing: border-box;
+        border-radius: 50px;
+    }
+</style>
