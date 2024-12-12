@@ -11,17 +11,18 @@
       color: #4A1C12; /* Texto oscuro que resalte */
       display: flex;
       flex-direction: column;
-      align-items: flex-start; /* Alinear elementos al inicio */
-      justify-content: center; /* Centrar verticalmente */
+      align-items: flex-start; /* Alinear elementos al inicio horizontal */
+      justify-content: flex-start; /* Alinear elementos al inicio vertical */
       padding: 20px;
       box-sizing: border-box;
+      box-shadow: 4px 0px 6px rgba(255, 164, 140, 0.5); /* Sombra hacia la derecha */
     }
   
     a {
       text-decoration: none; /* Sin subrayado */
       color: inherit; /* Usa el color del texto definido en nav */
       font-size: 18px;
-      margin-bottom: 10px;
+      margin-bottom: 10px; /* Espaciado entre los enlaces */
       transition: color 0.3s;
     }
   
