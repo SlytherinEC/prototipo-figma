@@ -12,5 +12,11 @@
     "@sveltejs/vite-plugin-svelte": "^5.0.0",
     "svelte": "^5.2.7",
     "vite": "^6.0.1"
+  },
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.7.1",
+    "@fortawesome/free-solid-svg-icons": "^6.7.1",
+    "@fortawesome/svelte-fontawesome": "^0.2.3",
+    "9-prototipo-figma": "file:"
   }
 }
