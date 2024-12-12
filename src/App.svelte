@@ -16,6 +16,9 @@
     flex-direction: column;
     height: 100vh; /* Ocupa toda la altura de la ventana */
     width: 100vw; /* Ocupa todo el ancho de la ventana */
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
   }
 </style>
 
