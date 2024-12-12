@@ -4,7 +4,7 @@
   
   <style>
     footer {
-      height: 75px;
+      height: 7%;
       width: 100%;
       background-color: #343a40; /* Cambia a tu color preferido */
       color: #ffffff;

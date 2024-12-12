@@ -4,7 +4,7 @@
   
   <style>
     header {
-      height: 165px;
+      height: 16%;
       width: 100%;
       background-color: #f8f9fa; /* Cambia a tu color preferido */
       display: flex;
